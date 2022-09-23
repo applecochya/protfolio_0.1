@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+*{padding: 0; margin: 0;}
+ol,ul{list-style: none;}
+a{text-decoration: none; color: inherit;}
+img{border: none; display: block;}
+
+
+
+
+@font-face {
+  font-family: "Showcard-Gothic";
+  src: url("../fonts/SHOWG.TTF.woff") format('truetype');;
+}
+body{ font-family:"Showcard-Gothic" ; }
+
+div#p h1{width: 830px; height: 180px; position: absolute; top: 100px; right: 0;
+  font-size: 140px;  text-align: center; line-height: 180px;}
+
+
+  #diamond-narrow img { width: 40px; height: 70px; position: absolute; right: 770px; top: 120px; background-size: cover;
+    box-sizing: border-box; 
+  }
+  #diamond-narrow1 img{ width: 35px; height: 65px; position: absolute; right: 575px; top: 135px;}
+  #diamond-narrow2 img{ width: 20px; height: 30px; position: absolute; right: 450px; top: 223px;}
+  #diamond-narrow3 img{ width: 30px; height: 65px; position: absolute; right: 390px; top: 140px;}
+  #diamond-narrow4 img{ width: 28px; height: 60px; position: absolute; right: 128px; top: 202px;}
+  #diamond-narrow5 img{ width: 28px; height: 60px; position: absolute; right: 90px; top: 135px;}
+div.red{width: 45px; height: 45px; background-color: #FF9E9E; border-radius: 50%; position: absolute; bottom: 350px; left: 20px;}
+div.yello{width: 45px; height: 45px; background-color: #FFEDA7; border-radius: 50%; position: absolute; bottom: 270px; left: 20px;}
+div.green{width: 45px; height: 45px; background-color: #7AFFD6; border-radius: 50%; position: absolute; bottom: 190px; left: 20px;}
+div.blue{width: 45px; height: 45px; background-color: #8DDCFF; border-radius: 50%; position: absolute; bottom: 110px; left: 20px;}
+div.puple{width: 45px; height: 45px; background-color: #D497D2; border-radius: 50%; position: absolute; bottom: 30px; left: 20px;}
+
+
+
+

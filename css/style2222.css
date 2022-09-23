@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+*{padding: 0; margin: 0;}
+ol,ul{list-style: none;}
+a{text-decoration: none; color: inherit;}
+img{border: none;  display: block;}
+
+
+
+
+@font-face {
+  font-family: "Showcard-Gothic";
+  src: url("../fonts/SHOWG.TTF.woff") format('truetype');;
+}
+body{ font-family:"Showcard-Gothic" ;  }
+
+
+.line img{width: 1600px; bottom: 0; position: absolute;
+  background-size: cover}
+
+#star img{width: 30px; height: 60px; position: absolute; left: 250px; top: 15px;}
+#pro img{width: 150px; height: auto; position: absolute; left: 290px; top: 27px;}
+
+#pro .box {width: 250px; height: 300px; background-color: aquamarine; top: 50px; }
+
+
+
+
