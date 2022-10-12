@@ -1,0 +1,40 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{padding: 0; margin: 0;}
+ol,ul{list-style: none;}
+a{text-decoration: none; color: inherit;}
+img{border: none;  display: block;}
+li{list-style: none;}
+
+
+@font-face {
+  font-family: "Showcard-Gothic";
+  src: url("../fonts/SHOWG.TTF.woff") format('truetype');;
+}
+body{ font-family:"Showcard-Gothic" ; font-size: 120px;}
+
+
+
+#num li:nth-of-type(1){position: absolute; left: 250px; top: 0; color: #FF9E9E;}
+#num li:nth-of-type(2){position: absolute; left: 500px; top: 150px; color: #FFEDA7;}
+#num li:nth-of-type(3){position: absolute; left: 750px; top: 300px; color: #7AFFD6;}
+#num li:nth-of-type(4){position: absolute; left: 1000px; top: 450px; color: #8DDCFF;}
+#num li:nth-of-type(5){position: absolute; left: 1250px; top: 600px; color: #D497D2;}
+
+div.box1{width: 130px; height: 20px; position: absolute; left: 250px; top: 150px; background-color: #FF9E9E; display: block;}
+div.box2{width: 130px; height: 20px; position: absolute; left: 500px; top: 300px; background-color: #FFEDA7; display: block;}
+div.box3{width: 130px; height: 20px; position: absolute; left: 750px; top: 450px; background-color: #7AFFD6; display: block;}
+div.box4{width: 130px; height: 20px; position: absolute; left: 1000px; top: 600px; background-color: #8DDCFF; display: block;}
+div.box5{width: 130px; height: 20px; position: absolute; left: 1250px; top: 750px; background-color: #D497D2; display: block;}
+
+
+
+#back .back1 li a{padding-top: 789px; padding-left: 50%;   background-color: #fff; display: block; float: left;}
+#back .back2 li a{padding-top: 789px;  padding-right: 50%;  background-color: #fff; display: block;}
+
+
+
+
+
+

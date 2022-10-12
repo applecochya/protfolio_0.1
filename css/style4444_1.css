@@ -1,0 +1,43 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{padding: 0; margin: 0;}
+ol,ul{list-style: none;}
+a{text-decoration: none; color: inherit;}
+img{border: none;  display: block;}
+li{list-style: none;}
+
+@font-face {
+  font-family: "Showcard-Gothic";
+  src: url("../fonts/SHOWG.TTF.woff") format('truetype');;
+}
+body{ font-family:"Showcard-Gothic" ;}
+
+
+#line .a {width: 10px; height: 55px; background-color: #FF9E9E; position: absolute; top: 30px; left: 27px;}
+#line .b {width: 3px; height: 55px; background-color: #FF9E9E; position: absolute; top: 30px; left: 42px;}
+#line p {color: #FF9E9E; position: absolute; top: 18px; left: 50px; font-size: 60px;}
+
+#enil {border: 2px solid #FF9E9E ; width: 1100px; height: 550px; position: absolute; right: 40px; top: 40px;}
+
+#enil {overflow: hidden;}
+#enil::after {content: ""; display: block; clear: both;}
+#enil ul {position: relative; float: left;}
+#enil ul li a img {width: 1100px; height: 550px; background: cover; float: left;}
+
+
+.text p{color: black; position: absolute; bottom: 400px; right: 80%; font-size: 20px;
+        text-decoration-line: underline; text-decoration-thickness: 3px; text-decoration-color: #FF9E9E;
+        text-decoration-style: dashed; text-underline-position: under;}
+
+#back .back1 li a{padding-top: 789px; padding-left: 50%;   background-color: #fff; display: block; float: left;}
+#back .back2 li a{padding-top: 789px;  padding-right: 50%;  background-color: #fff; display: block;}
+
+
+
+
+
+
+
+
+

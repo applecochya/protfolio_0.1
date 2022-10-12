@@ -1,28 +1,63 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 *{padding: 0; margin: 0;}
 ol,ul{list-style: none;}
 a{text-decoration: none; color: inherit;}
 img{border: none;  display: block;}
+li{list-style: none;}
 
 
 
 
-@font-face {
-  font-family: "Showcard-Gothic";
-  src: url("../fonts/SHOWG.TTF.woff") format('truetype');;
-}
-body{ font-family:"Showcard-Gothic" ;  }
+body{font-weight: 900; color: #A0C1C5 ;}
 
 
 .line img{width: 1600px; bottom: 0; position: absolute;
   background-size: cover}
 
-#star img{width: 30px; height: 60px; position: absolute; left: 250px; top: 15px;}
-#pro img{width: 150px; height: auto; position: absolute; left: 290px; top: 27px;}
+#kcab li a:nth-of-type(1) img{position: absolute; width: 100px; height: 100px; left: 20px; top: 5px;  transform: scaleX(-1); }
+#kcab li a:nth-of-type(2) img{position: absolute; width: 100px; height: 100px; right: 20px; top: 5px; }
 
-#pro .box {width: 250px; height: 300px; background-color: aquamarine; top: 50px; }
+#star img:nth-child(1){width: 30px; height: 60px; position: absolute; left: 250px; top: 15px;}
+#star img:nth-child(2){width: 30px; height: 60px; position: absolute; left: 615px; top: 88px;}
+#star img:nth-child(3){width: 30px; height: 60px; position: absolute; left: 615px; top: 330px;}
+#star img:nth-child(4){width: 30px; height: 60px; position: absolute; left: 1020px; top: 88px;}
+#pro img{width: 150px; height: auto; position: absolute; left: 300px; top: 27px;}
+#cat img{width: 200px; height: auto; position: absolute; left: 660px; top: 100px;}
+#me img{width: 200px; height: auto; position: absolute; left: 660px; top: 343px;}
+#me p{position: absolute; left: 650px; top: 415px;}
+#skills img{width: 150px; height: auto; position: absolute; left: 1070px; top: 100px;}
 
+.icon p:nth-child(1){position: absolute; text-align: center; height: 30px; left: 310px; top: 420px; line-height: 30px;}
+.icon p:nth-child(2){position: absolute; text-align: center; height: 30px; left: 310px; top: 490px; line-height: 30px;}
+.icon p:nth-child(3){position: absolute; text-align: center; height: 30px; left: 310px; top: 570px; line-height: 30px;}
 
+#pro .box a img{width: 225px; height: 300px; position: absolute; background: no-repeat right center/cover; top: 80px; left: 250px ; }
+
+#pro p{position: absolute; left: 640px; top: 170px;}
+#pro i:nth-of-type(1){position: absolute; width: 30px; height: 60px; left: 255px; top: 420px; display: block; color: #2F83A8;
+text-shadow: 3px 3px 6px #00E6FF;}
+#pro i:nth-of-type(2){position: absolute; width: 30px; height: 60px; left: 255px; top: 490px; display: block; color: #2F83A8;
+  text-shadow: 3px 3px 6px #00E6FF;}
+#pro i:nth-of-type(3){position: absolute; width: 30px; height: 60px; left: 255px; top: 570px; display: block; color: #2F83A8;
+  text-shadow: 3px 3px 6px #00E6FF;}
+
+#skills p:nth-of-type(1){position: absolute; right: 540px; top: 170px;}
+#skills p:nth-of-type(2){position: absolute; right: 540px; top: 210px;}
+#skills p:nth-of-type(3){position: absolute; right: 540px; top: 250px;}
+#skills p:nth-of-type(4){position: absolute; right: 540px; top: 290px;}
+#skills p:nth-of-type(5){position: absolute; right: 540px; top: 330px;}
+#skills p:nth-of-type(6){position: absolute; right: 540px; top: 370px;}
+
+#skills .O div:nth-of-type(1){position: absolute; right: 400px; top: 166px; letter-spacing: 6px; font-size: 18px; color: #FFAF46;}
+#skills .O div:nth-of-type(2){position: absolute; right: 400px; top: 206px; letter-spacing: 6px; font-size: 18px; color: #FFAF46;}
+#skills .O div:nth-of-type(3){position: absolute; right: 400px; top: 246px; letter-spacing: 6px; font-size: 18px; color: #FFAF46;}
+#skills .O div:nth-of-type(4){position: absolute; right: 400px; top: 286px; letter-spacing: 6px; font-size: 18px; color: #FFAF46;}
+#skills .O div:nth-of-type(5){position: absolute; right: 400px; top: 326px; letter-spacing: 6px; font-size: 18px; color: #FFAF46;}
+#skills .O div:nth-of-type(6){position: absolute; right: 400px; top: 366px; letter-spacing: 6px; font-size: 18px; color: #FFAF46;}
+
+.back1 li a{padding-top: 789px; padding-left: 50%;   background-color: #fff; display: block; float: left;}
+.back2 li a{padding-top: 789px;  padding-right: 50%;  background-color: #fff; display: block;}
 
 
