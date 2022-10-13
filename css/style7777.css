@@ -44,8 +44,8 @@ p{position: fixed; top: 50%; left: 50%;
   transform: translate(-50%, -50%); color: #8DDCFF;}
 
 
-#back .back1 li a{padding-top: 789px; padding-left: 50%;   background-color:#8DDCFF; display: block; float: left;}
-#back .back2 li a{padding-top: 789px;  padding-right: 50%;  background-color: #8DDCFF; display: block;}
+#back .back1 li a{padding-top: 50%; padding-left: 50%;   background-color:#8DDCFF; display: block; float: left;}
+#back .back2 li a{padding-top: 50%;  padding-right: 50%;  background-color: #8DDCFF; display: block;}
 
 
 

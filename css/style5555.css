@@ -12,7 +12,7 @@ li{list-style: none;}
   font-family: "Showcard-Gothic";
   src: url("../fonts/SHOWG.TTF.woff") format('truetype');;
 }
-body{ font-family:"Showcard-Gothic" ; font-size: 135px;}
+body{ font-family:"Showcard-Gothic" ; font-size: 135px; }
 
 
 #box1{width: 400px; height: 300px; background-color: #fff; display: block; 
@@ -44,8 +44,8 @@ p{position: fixed; top: 50%; left: 50%;
   transform: translate(-50%, -50%); color: #FFEDA7;}
 
 
-#back .back1 li a{padding-top: 789px; padding-left: 50%;   background-color: #FFEDA7; display: block; float: left;}
-#back .back2 li a{padding-top: 789px;  padding-right: 50%;  background-color: #FFEDA7; display: block;}
+#back .back1 li a{padding-top: 50%; padding-left: 50%;   background-color: #FFEDA7; display: block; float: left;}
+#back .back2 li a{padding-top: 50%;  padding-right: 50%;  background-color: #FFEDA7; display: block;}
 
 
 
